@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="boat.css">
+</head>
+<body>
+<audio id="background-music" autoplay loop>
+  <source src="christmas-dreams-jingle-bells-268299.mp3">
+
+</audio>
+
+
+<div id="snow"></div>
+<section class="first">
+<div class="nav">
+<img src="logo.png">
+<a href="#">categories</a>
+<a href="#">daily deals</a>
+<a href="#">gift with voltix</a>
+<a href="#">bulk order</a>
+<a href="#">more</a>
+<div class="navr">
+   <button class="christmas-button">play</button>
+<input type="text" placeholder="search 🔍︎" >
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-bag" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z" />
+  <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+</svg>
+</div>
+</div>
+
+
+</section>
+
+<!-- <section class="first-video">
+<header> Explore Best Sell<span>er</span></header>
+<div class="video-card-main">
+    <div class="video-card">
+        <div class="video-card-img">
+            
+            <video width="AUTO" height="AUTO" autoplay controls muted loop src="https://www.boat-lifestyle.com/cdn/shop/files/quinn_RUxbhR7CvjkNtlFUDxgw9.mp4">
+        </div>
+         <div class="video-card-text"><h6>watches</h6></div>
+    </div>
+
+
+     <div class="video-card">
+        <div class="video-card-img">
+            <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_141_d277995b-31ae-420d-b5b4-1161515335ed.jpg?v=1687428689">
+        </div>
+         <div class="video-card-text"><h6>watches</h6></div>
+    </div>
+
+     <div class="video-card">
+        <div class="video-card-img">
+            <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boAt-Airdopes-Atom-83.jpg?v=1682576552">
+        </div>
+         <div class="video-card-text"><h6>watches</h6></div>
+    </div>
+
+     <div class="video-card">
+        <div class="video-card-img">
+            <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Wave-Stride-Voice.jpg?v=1682408982">
+        </div>
+         <div class="video-card-text"><h6>watches</h6></div>
+    </div>
+
+     <div class="video-card">
+        <div class="video-card-img">
+            <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/rockerz_ea76e8ff-d95c-49da-b6c9-fca4304dce11.jpg?v=1685686978">
+        </div>
+         <div class="video-card-text"><h6>watches</h6></div>
+    </div> 
+
+    <div class="video-card">
+        <div class="video-card-img">
+            <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Wave_Call_2_268181d9-df99-4732-ab67-a9bba743e01b.jpg?v=1689586538">
+        </div>
+         <div class="video-card-text"><h6>watches</h6></div>
+    </div> 
+    
+</section> -->
+
+
+<section class="second">
+  
+    <div class="second-main">
+<div class="header"><h3>Daily dea<span>ls</span></h3>
+
+</div>
+<div class="card-main">
+        <div class="card">
+            <div class="card-img">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/products/black_320d7c10-5bdf-435b-a0e5-5f19aaeb8de2_300x.png?v=1673616471">
+            </div>
+            <div class="card-round"><h5>60 hr playback</h5></div>
+            <div class="card-down">
+            <div class="card-left">
+<h6>Airdopes 131</h6>
+<h6>Sale price₹399   <s>999  </s><span id=green>60%off</span> </h6>
+
+ <h6>⭐4.6</h6>
+            </div>
+            <div class="card-right">
+                <div class="color">
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"><h6>+4</h6></div>
+                </div>
+                <button id="br">Add to cart</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_161.jpg?v=1686297917">
+            </div>
+            <div class="card-round"><h5>60 hr playback</h5></div>
+            <div class="card-down">
+            <div class="card-left">
+<h6>Airdopes 131</h6>
+<h6>Sale price₹399   <s>999</s> 60% off</h6>
+
+ <h6>⭐4.6</h6>
+            </div>
+            <div class="card-right">
+                <div class="color">
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"><h6>+4</h6></div>
+                </div>
+                <button id="br">Add to cart</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/rockerz_ea76e8ff-d95c-49da-b6c9-fca4304dce11.jpg?v=1685686978">
+            </div>
+            <div class="card-round"><h5>60 hr playback</h5></div>
+            <div class="card-down">
+            <div class="card-left">
+<h6>Airdopes 131</h6>
+<h6>Sale price₹399   <s>999</s> <span id=green>60%off</span></h6>
+
+ <h6>⭐4.6</h6>
+            </div>
+            <div class="card-right">
+                <div class="color">
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"><h6>+4</h6></div>
+                </div>
+                <button id="br">Add to cart</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/131_f04f74fd-45d4-4614-85cf-6ccf69c4cf90.jpg?v=1691395049">
+            </div>
+            <div class="card-round"><h5>60 hr playback</h5></div>
+            <div class="card-down">
+            <div class="card-left">
+<h6>Airdopes 131</h6>
+<h6>Sale price₹399   <s>999</s> <span id=green>60%off</span>
+</h6>
+
+ <h6>⭐4.6</h6>
+            </div>
+            <div class="card-right">
+                <div class="color">
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"><h6>+4</h6></div>
+                </div>
+                <button id="br">Add to cart</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <h3>Shop BY <b>Categori<span>es</span></b></h3>
+
+        <div class="footer-main">
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/True-wireless-earbuds_small.png?v=1684842854">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/Neckbands_bc6343f4-622f-4ebd-bb36-205643c3bf78_small.png?v=1684842854">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/Smartwatches_88f12bcf-24bd-4e3a-aacb-ecc204f62179_small.png?v=1684842853">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/Wireless-Speaker_small.png?v=1684842854">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/Wired-Headphones_small.png?v=1684842854">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/Wired-Earphones_small.png?v=1684842854">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/Soundbars_d9a7bdfd-e780-4581-ab85-f2e86f84cd28_small.png?v=1684842854">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/Gaming-Headphones_small.png?v=1684842853">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/w_de57f25b-de5b-4d1a-bed0-765975b25da8_small.png?v=1684847228">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/Trimmers_d0d346cf-b681-49b6-8942-835819bec2d1_small.png?v=1684842853">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/Chargers_c290cb92-f132-412c-8387-f399a7aba423_small.png?v=1684842854">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/Cables_3c471ad3-9d08-426a-9d16-a6df00687ff0_small.png?v=1684842854">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/Cables_3c471ad3-9d08-426a-9d16-a6df00687ff0_small.png?v=1684842854">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/Car-Accessories_6adfe1a9-384f-46ef-b45d-50761eb5cca6_small.png?v=1684842853">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/T-rebel_small.png?v=1684842854">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/Limited-Edition_90154b16-39c9-4461-a96d-a818d791fb99_small.png?v=1684842854">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/True-wireless-earbuds_small.png?v=1684842854">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+            <div class="imgf">
+                <img src="https://www.boat-lifestyle.com/cdn/shop/files/True-wireless-earbuds_small.png?v=1684842854">
+                <p>True wireless</p>
+                <p>Earbud</p>
+            </div>
+       
+        </div>
+    </div>
+</section>
+
+
+<section class="third">
+    <div class="header"><h3>New Launch<span>es</span></h3>
+
+</div>
+<div class="card-main">
+        <div class="card">
+            <div class="card-img">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/R32_13d4c761-fa28-47c7-bc00-113e61db2a94.jpg?v=1695017518">
+            </div>
+            <div class="card-round"><h5>60 hr playback</h5></div>
+            <div class="card-down">
+            <div class="card-left">
+<h6>Airdopes 131</h6>
+<h6>Sale price₹399   <s>999</s> 60% off</h6>
+
+ <h6>⭐4.6</h6>
+            </div>
+            <div class="card-right">
+                <div class="color">
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"><h6>+4</h6></div>
+                </div>
+                <button id="br">Add to cart</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Z30_0c1d88fb-8db3-4018-912b-b72d8e8e08db.jpg?v=1694610315">
+            </div>
+            <div class="card-round"><h5>60 hr playback</h5></div>
+            <div class="card-down">
+            <div class="card-left">
+<h6>WATCHES </h6>
+<h6>Sale price₹399   <s>999</s> 60% off</h6>
+
+ <h6>⭐4.6</h6>
+            </div>
+            <div class="card-right">
+                <div class="color">
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"><h6>+4</h6></div>
+                </div>
+                <button id="br">Add to cart</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/X500_ecb9de5a-272e-4458-b479-1597e9460b94.jpg?v=1695017517">
+            </div>
+            <div class="card-round"><h5>60 hr playback</h5></div>
+            <div class="card-down">
+            <div class="card-left">
+<h6>WATCHES </h6>
+<h6>Sale price₹399   <s>999</s> 60% off</h6>
+
+ <h6>⭐4.6</h6>
+            </div>
+            <div class="card-right">
+                <div class="color">
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"><h6>+4</h6></div>
+                </div>
+                <button id="br">Add to cart</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/X600_aab9d867-b9bd-4066-9a98-fb721f628051.jpg?v=1695017517">
+            </div>
+            <div class="card-round"><h5>60 hr playback</h5></div>
+            <div class="card-down">
+            <div class="card-left">
+<h6>WATCHES </h6>
+<h6>Sale price₹399   <s>999</s> 60% off</h6>
+
+ <h6>⭐4.6</h6>
+            </div>
+            <div class="card-right">
+                <div class="color">
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"><h6>+4</h6></div>
+                </div>
+                <button id="br">Add to cart</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+  <div class="bottom">
+    <div class="bt">
+        <img src="https://www.boat-lifestyle.com/cdn/shop/files/Group_334305_small.svg?v=1682336123"><p><b>1 year warranty</p></b>
+    </div>
+    <div class="bt">
+        <img src="https://www.boat-lifestyle.com/cdn/shop/files/Group_334304_small.svg?v=1682336123"><p><b>7 day replacement</p></b>
+    </div>
+<div class="bt">
+        <img src="https://www.boat-lifestyle.com/cdn/shop/files/Group_334304_small.svg?v=1682336123"><p><b>Gst billing</p></b>
+    </div>
+    <div class="bt">
+        <img src="https://www.boat-lifestyle.com/cdn/shop/files/Group_334303_small.svg?v=1682336123"><p><b>Free Shipping</p></b>
+    </div>
+   
+  </div>
+
+
+</section>
+
+
+<section class="fourth">
+<div class="header"><h3>Shop By Lifesty<span>le</span></h3>
+    <div class="fourth-card-main">
+<div class="fourth-card">
+    <div class="fourth-card-img">
+        <img src="download.png">
+    </div>
+    <div class="FOURTH-CARD-TEXT">
+        <H3>FOR WORK</H3>
+       <div class="text"><SPAN id="view-fourth"><H6>VIEW ALL</H6></SPAN><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-arrow-right" width="12" height="12" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0 -18" />
+  <path d="M16 12l-4 -4" />
+  <path d="M16 12h-8" />
+  <path d="M12 16l4 -4" />
+</svg></div>
+    </div>
+</div>
+
+<div class="fourth-card">
+    <div class="fourth-card-img">
+        <img src="Screenshot__39___1_-removebg-preview.png">
+    </div>
+    <div class="FOURTH-CARD-TEXT">
+        <H3>FOR WORK</H3>
+       <div class="text"><SPAN id="view-fourth"><H6>VIEW ALL</H6></SPAN><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-arrow-right" width="12" height="12" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0 -18" />
+  <path d="M16 12l-4 -4" />
+  <path d="M16 12h-8" />
+  <path d="M12 16l4 -4" />
+</svg></div>
+    </div>
+</div>
+<div class="fourth-card">
+    <div class="fourth-card-img">
+        <img src="Screenshot__39___3_-removebg-preview.png">
+    </div>
+    <div class="FOURTH-CARD-TEXT">
+        <H3>FOR WORK</H3>
+       <div class="text"><SPAN id="view-fourth"><H6>VIEW ALL</H6></SPAN><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-arrow-right" width="12" height="12" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0 -18" />
+  <path d="M16 12l-4 -4" />
+  <path d="M16 12h-8" />
+  <path d="M12 16l4 -4" />
+</svg></div>
+    </div>
+</div>
+<div class="fourth-card">
+    <div class="fourth-card-img">
+        <img src="Screenshot__39___2_-removebg-preview.png">
+    </div>
+    <div class="FOURTH-CARD-TEXT">
+        <H3>FOR WORK</H3>
+       <div class="text"><SPAN id="view-fourth"><H6>VIEW ALL</H6></SPAN><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-arrow-right" width="12" height="12" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0 -18" />
+  <path d="M16 12l-4 -4" />
+  <path d="M16 12h-8" />
+  <path d="M12 16l4 -4" />
+</svg></div>
+    </div>
+</div>
+<div class="fourth-card">
+    <div class="fourth-card-img">
+        <img src="Screenshot__39___4_-removebg-preview.png">
+    </div>
+    <div class="FOURTH-CARD-TEXT">
+        <H3>FOR WORK</H3>
+       <div class="text"><SPAN id="view-fourth"><H6>VIEW ALL</H6></SPAN><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-arrow-right" width="12" height="12" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0 -18" />
+  <path d="M16 12l-4 -4" />
+  <path d="M16 12h-8" />
+  <path d="M12 16l4 -4" />
+</svg></div>
+    </div>
+</div>
+
+    </div>
+
+    <div class="fourth-footer">
+      <div class="header"><h6>BEST OF  <strong>BO<span>AT</span></strong></h6> 
+        <BUTTON>BEST SELLERS</BUTTON>
+        <BUTTON>BEST SELLERS</BUTTON>
+        <BUTTON>BEST SELLERS</BUTTON>
+        <BUTTON>BEST SELLERS</BUTTON>
+        <BUTTON>BEST SELLERS</BUTTON>
+
+       
+    </div>
+
+</section>
+
+<section class="fifth">
+    <div class="second-main">
+<div class="header1"><h3>daily dea<span>ls</span></h3>
+
+</div>
+<div class="card-main">
+        <div class="card">
+            <div class="card-img">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_161.jpg?v=1686297917">
+            </div>
+            <div class="card-round"><h5>60 hr playback</h5></div>
+            <div class="card-down">
+            <div class="card-left">
+<h6>Airdopes 131</h6>
+<h6>Sale price₹399   <s>999</s> 60% off</h6>
+
+ <h6>⭐4.6</h6>
+            </div>
+            <div class="card-right">
+                <div class="color">
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"><h6>+4</h6></div>
+                </div>
+                <button id="br">Add to cart</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_131_e7e95f2c-0bb3-492e-89df-613a2cfb792f.jpg?v=1686297917">
+            </div>
+            <div class="card-round"><h5>60 hr playback</h5></div>
+            <div class="card-down">
+            <div class="card-left">
+<h6>Airdopes 131</h6>
+<h6>Sale price₹399   <s>999</s> 60% off</h6>
+
+ <h6>⭐4.6</h6>
+            </div>
+            <div class="card-right">
+                <div class="color">
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"><h6>+4</h6></div>
+                </div>
+                <button id="br">Add to cart</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Wave_Flex_Connect.jpg?v=1689751649">
+            </div>
+            <div class="card-round"><h5>60 hr playback</h5></div>
+            <div class="card-down">
+            <div class="card-left">
+<h6>Airdopes 131</h6>
+<h6>Sale price₹399   <s>999</s> 60% off</h6>
+
+ <h6>⭐4.6</h6>
+            </div>
+            <div class="card-right">
+                <div class="color">
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"><h6>+4</h6></div>
+                </div>
+                <button id="br">Add to cart</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_141_d277995b-31ae-420d-b5b4-1161515335ed.jpg?v=1687428689">
+            </div>
+            <div class="card-round"><h5>60 hr playback</h5></div>
+            <div class="card-down">
+            <div class="card-left">
+<h6>Airdopes 131</h6>
+<h6>Sale price₹399   <s>999</s> 60% off</h6>
+
+ <h6>⭐4.6</h6>
+            </div>
+            <div class="card-right">
+                <div class="color">
+                <div class="color1"></div>
+                <div class="color2"></div>
+                <div class="color3"><h6>+4</h6></div>
+                </div>
+                <button id="br">Add to cart</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section class="sixth">
+     <h3><b>Blog<span>s</span></b></h3>
+
+     <div class="sixth-main-card">
+        <div class="sixth-card">
+            <div class="sixth-card-img">
+                <img id="sixth-card-img-position" src="https://www.boat-lifestyle.com/cdn/shop/articles/Aman_600x.png?v=1669814321">
+
+            </div>
+            <div class="sixth-card-bottom">
+
+                <h5>30 Nov, 2022</h5>
+               <h4>Aman Gupta boAt (Shark Tank India 2) Age, Net worth, Email ID, Education & More...</h4>
+               <h5>We know you keep searching for things on the internet — after all, what better source is there in...</h5>
+               <button>Read More <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0 -18" />
+  <path d="M16 12l-4 -4" />
+  <path d="M16 12h-8" />
+  <path d="M12 16l4 -4" />
+</svg></button>
+            </div>
+        
+        </div>
+       
+        <div class="sixth-card">
+            <div class="sixth-card-img">
+                <img id="sixth-card-img-position" src="https://www.boat-lifestyle.com/cdn/shop/articles/Main-banner_600x.jpg?v=1619585623">
+
+            </div>
+            <div class="sixth-card-bottom">
+
+                <h5>30 Nov, 2022</h5>
+               <h4>Get Your Hands on the Latest Smartphones – Up to 30% Off!!
+               <h5>We know you keep searching for things on the internet — after all, what better source is there in...</h5>
+               <button>Read More <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0 -18" />
+  <path d="M16 12l-4 -4" />
+  <path d="M16 12h-8" />
+  <path d="M12 16l4 -4" />
+</svg></button>
+            </div>
+        
+        </div>
+
+        <div class="sixth-card">
+            <div class="sixth-card-img">
+                <img id="sixth-card-img-position" src="https://www.boat-lifestyle.com/cdn/shop/articles/dc-Blog_600x.png?v=1656406645">
+            </div>
+            <div class="sixth-card-bottom">
+
+                <h5>30 Nov, 2022</h5>
+               <h4>Power Up Your Productivity: Laptops Now Up to 25% Off!
+               <h5>We know you keep searching for things on the internet — after all, what better source is there in...</h5>
+               <button>Read More <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0 -18" />
+  <path d="M16 12l-4 -4" />
+  <path d="M16 12h-8" />
+  <path d="M12 16l4 -4" />
+</svg></button>
+            </div>      
+        
+        </div>
+
+
+        <div class="sixth-card">
+            <div class="sixth-card-img">
+                <img id="sixth-card-img-position" src="https://www.boat-lifestyle.com/cdn/shop/articles/banner_600x.png?v=1688023063">
+
+            </div>
+            <div class="sixth-card-bottom">
+
+                <h5>30 Nov, 2024</h5>
+               <h4>Smart bands40% Off – Enhance Your Health & Connectivity!
+               <h5>We know you keep searching for things on the internet — after all, what better source is there in...</h5>
+               <button>Read More <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0 -18" />
+  <path d="M16 12l-4 -4" />
+  <path d="M16 12h-8" />
+  <path d="M12 16l4 -4" />
+</svg></button>
+            </div>
+        
+        </div>
+
+
+     </div>
+</section>
+
+
+
+<section class="seventh">
+    <h3>In the pre<span>ss</span></h3>
+
+
+    <div class="seventh-main">
+
+        <div class="seventh-main-card">
+            <div class="main-card1">FORBES </div>
+            <div class="main-card2"> 
+                <h1><span id="comma">’</span>’</h1>
+            <h4>This has made my daily routine so much smoother. A simple solution with a huge impact.</h4>
+        </div>
+
+        </div>
+
+         <div class="seventh-main-card">
+            <div class="main-card1">FORBES </div>
+            <div class="main-card2"> 
+                <h1><span id="comma">’</span>’</h1>
+            <h4>A small investment that delivers big results. I couldn’t be happier with my purchase!</h4>
+        </div>
+
+        </div>
+
+         <div class="seventh-main-card">
+            <div class="main-card1">FORBES </div>
+            <div class="main-card2"> 
+                <h1><span id="comma">’</span>’</h1>
+            <h4>In a world full of options, this is the one I keep coming back to. Consistently amazing!</h4>
+        </div>
+
+        </div>
+
+         <div class="seventh-main-card">
+            <div class="main-card1">FORBES </div>
+            <div class="main-card2"> 
+                <h1><span id="comma">’</span>’</h1>
+            <h4>"This has made my daily routine so much smoother. A simple solution with a huge impact."</h4>
+
+
+        </div>
+
+        </div>
+
+         <div class="seventh-main-card">
+            <div class="main-card1">FORBES </div>
+            <div class="main-card2"> 
+                <h1><span id="comma">’</span>’</h1>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ex explicabo similique blanditiis, odit illo tenetur volup</h4>
+        </div>
+
+        </div>
+       
+    </div>
+</section>
+
+
+<section class="eight">
+<div class="eight-card">
+<img id="eight-card-img"src="https://www.boat-lifestyle.com/cdn/shop/files/boAt_logo_small_3067da8c-a83b-46dd-b28b-6ef1e16ccd17_small.svg?v=1693549434">
+<strong><h3>Subscribe to our email alerts!</h3></strong>
+<input form="Email"  placeholder="Enter your email add                                                            →">
+</div>
+<div class="eight-card">
+    <div class="eight-card1">
+<h5>shop</h5>
+<h6>True wireless earphone</h6>
+<h6>headphone</h6>
+<h6>watches</h6>
+<h6>home audio</h6>
+<h6>misfit</h6>
+<h6>audio</h6>
+</div>
+<div class="eight-card2">
+
+<h6>headphone</h6>
+<h6>watches</h6>
+<h6>home audio</h6>
+<h6>misfit</h6>
+<h6>audio</h6>    
+</div>
+</div>
+
+<div class="eight-card">
+    <div class="eight-card1">
+<h5>Help</h5>
+<h6>True wireless earphone</h6>
+<h6>headphone</h6>
+<h6>watches</h6>
+<h6>home audio</h6>
+<h6>misfit</h6>
+<h6>audio</h6>
+</div>
+<div class="eight-card3">
+<h5>Company</h5>
+<h6>headphone</h6>
+<h6>watches</h6>
+<h6>home audio</h6>
+<h6>misfit</h6>
+<h6>audio</h6>    
+<h6>audio</h6>  
+<h6>audio</h6>  
+<h6>audio</h6>  
+</div>
+
+</div>
+
+ 
+</section>
+
+
+<section class="ninth">
+
+<div class="ninth-main">
+    <div class="ninth-main-card">
+        <div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+    </div>
+
+<div class="ninth-main-card">
+        <div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+    </div>
+
+<div class="ninth-main-card">
+        <div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+    </div>
+
+<div class="ninth-main-card">
+        <div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+
+<div class="ninth-main-card1">
+<h4>True Wireless Earbuds</h4>
+
+<h5>Shop by features</h5>
+<h6>Noise cancellation earbuds</h6>
+<h6>Gaming Earbuds</h6>
+<h6>Large Playback Earbuds</h6>
+
+<h5>shop by price</h5>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+<h6>shop by 600</h6>
+</div>
+    </div>
+
+</div>
+</section>
+
+
+<section class="tenth">
+    <div class="tenth-main">
+        <h5>Let's get social                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook-filled" width="12" height="12" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" stroke-width="0" fill="currentColor" />
+</svg>                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube-filled" width="12" height="12" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M18 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-12a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-9 6v6a1 1 0 0 0 1.514 .857l5 -3a1 1 0 0 0 0 -1.714l-5 -3a1 1 0 0 0 -1.514 .857z" stroke-width="0" fill="currentColor" />
+</svg>                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="12" height="12" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M16.5 7.5l0 .01" />
+</svg>                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter-filled" width="12" height="12" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M14.058 3.41c-1.807 .767 -2.995 2.453 -3.056 4.38l-.002 .182l-.243 -.023c-2.392 -.269 -4.498 -1.512 -5.944 -3.531a1 1 0 0 0 -1.685 .092l-.097 .186l-.049 .099c-.719 1.485 -1.19 3.29 -1.017 5.203l.03 .273c.283 2.263 1.5 4.215 3.779 5.679l.173 .107l-.081 .043c-1.315 .663 -2.518 .952 -3.827 .9c-1.056 -.04 -1.446 1.372 -.518 1.878c3.598 1.961 7.461 2.566 10.792 1.6c4.06 -1.18 7.152 -4.223 8.335 -8.433l.127 -.495c.238 -.993 .372 -2.006 .401 -3.024l.003 -.332l.393 -.779l.44 -.862l.214 -.434l.118 -.247c.265 -.565 .456 -1.033 .574 -1.43l.014 -.056l.008 -.018c.22 -.593 -.166 -1.358 -.941 -1.358l-.122 .007a.997 .997 0 0 0 -.231 .057l-.086 .038a7.46 7.46 0 0 1 -.88 .36l-.356 .115l-.271 .08l-.772 .214c-1.336 -1.118 -3.144 -1.254 -5.012 -.554l-.211 .084z" stroke-width="0" fill="currentColor" />
+</svg>                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+  <path d="M8 11l0 5" />
+  <path d="M8 8l0 .01" />
+  <path d="M12 16l0 -5" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg></h5>
+
+<h6>Privacy Policy • Community Policy</h6>
+<h6>© 2023 Imagine Marketing Limited. All Rights Reserved.<br></h6>
+
+<h6 id=last>For queries contact us: Manager, Imagine Marketing Limited Unit no. 204 & 205, 2nd floor, D-wing & E-wing,
+Corporate Avenue, Andheri Ghatkopar Link Road, Mumbai, Maharashtra-400093, India</h6>
+    </div>
+</section>
+
+<script src="snowfall.js"></script>
+</body>
+</html>
