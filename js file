@@ -1,0 +1,101 @@
+(function () {
+  // Set up the number of snowflakes
+  const numberOfSnowflakes = 100;
+  const snowContainer = document.getElementById("snow");
+
+  // Snowflake symbols and styles
+  const snowflakeSymbols = ["❄", "❆", "❅"];
+
+  // Create snowflakes
+  function createSnowflake() {
+    const snowflake = document.createElement("div");
+    snowflake.classList.add("snowflake");
+
+    // Randomize snowflake properties
+    const symbol =
+      snowflakeSymbols[Math.floor(Math.random() * snowflakeSymbols.length)];
+    const size = Math.random() * 10 + 10; // Snowflake size between 10 and 20px
+    const speed = Math.random() * 3 + 2; // Snowflake fall speed
+    const delay = Math.random() * 5; // Random delay for each snowflake
+
+    snowflake.textContent = symbol;
+    snowflake.style.fontSize = `${size}px`;
+    snowflake.style.left = `${Math.random() * window.innerWidth}px`;
+    snowflake.style.animation = `fall ${speed}s linear infinite, drift ${
+      speed + Math.random() * 2
+    }s linear infinite`;
+    snowflake.style.animationDelay = `${delay}s`;
+
+    // Append to the snow container
+    snowContainer.appendChild(snowflake);
+  }
+
+  // Generate multiple snowflakes
+  for (let i = 0; i < numberOfSnowflakes; i++) {
+    createSnowflake();
+  }
+
+  // Define keyframes for animations
+  const styleSheet = document.styleSheets[0];
+  styleSheet.insertRule(
+    `
+        @keyframes fall {
+            0% {
+                top: -10px;
+            }
+            100% {
+                top: 100%;
+            }
+        }
+    `,
+    styleSheet.cssRules.length
+  );
+
+  styleSheet.insertRule(
+    `
+        @keyframes drift {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(calc(100vw * 0.5));
+            }
+        }
+    `,
+    styleSheet.cssRules.length
+  );
+})();
+// JavaScript to add a "click" effect
+const buttons = document.querySelectorAll('.button > button, .card-right #br, .footer-main .imgf, .fourth-footer button');
+
+buttons.forEach(button => {
+    button.addEventListener('click', function() {
+        this.style.transform = 'scale(0.95)';  // Slightly shrink on click
+        setTimeout(() => {
+            this.style.transform = 'scale(1)';  // Reset back to normal
+        }, 200); // Reset scale after 200ms
+    });
+});
+
+const images = document.querySelectorAll('.footer-main .imgf img, .card img, .nav img, .button img');
+
+images.forEach(image => {
+    image.addEventListener('mouseenter', function() {
+        this.style.transform = 'scale(1.1)';  // Enlarge image
+        this.style.filter = 'brightness(1.2)';  // Increase brightness
+    });
+
+    image.addEventListener('mouseleave', function() {
+        this.style.transform = 'scale(1)';  // Reset scale
+        this.style.filter = 'brightness(1)';  // Reset brightness
+    });
+});
+  var playButton = document.getElementById("christmas-button");
+  var audio = document.getElementById("background-music");
+
+  // Add click event to the button
+  playButton.addEventListener("click", function () {
+    // Play the audio when the button is clicked
+    audio.play();
+    playButton.style.display = "none"; // Hide the button after playing
+  });
